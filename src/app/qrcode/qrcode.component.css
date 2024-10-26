@@ -1,0 +1,23 @@
+:root {
+    --white: rgb(255, 255, 255);
+    --slate-300: rgb(213, 225, 239);
+    --slate-500: rgb(104, 119, 141);
+    --slate-900: rgb(31, 49, 79);
+
+}
+
+.text-preset-1 {
+    font: bold 22px 'Outfit', sans-serif;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+
+.text-preset-2 {
+    font: normal 15px 'Outfit';
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 375px) {
+
+}

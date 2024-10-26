@@ -9,4 +9,4 @@ ng serve
 
 ## Routes
 
-[example_1](localhost:4200/example_1)
+[example_1](http://localhost:4200/example)
