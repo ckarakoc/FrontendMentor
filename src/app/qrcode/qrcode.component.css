@@ -47,6 +47,7 @@
   width: 288px;
   height: 288px;
   max-width: 288px;
+  overflow: hidden;
 }
 
 .center {
@@ -61,13 +62,30 @@
   border-radius: 10px;
 }
 
+.qr-rectangle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  width: 60%;
+  height: 60%;
+  margin: 60px;
+  background-color: red;
+  opacity: 0;
+  z-index: 2;
+}
+
 .qr-oval {
   position: absolute;
   background-color: var(--blue-500);
-  opacity: 0.4;
+  /*background-color: black;*/
+  /*opacity: 0.4;*/
   /*background-color: rgba(54, 133, 255, 0.6);*/
   border-radius: 270px;
   z-index: 1;
+  /* Beware: magic incoming. Thanks to the magician: https://bennettfeely.com/clippy/ */
+  clip-path: polygon(37% 0, 100% 0, 100% 43%, 100% 67%, 57% 67%, 57% 100%, 0 100%, 0 10%, 37% 10%);
 }
 
 .qr-oval-bottom-right {
