@@ -26,7 +26,7 @@ export class QRCodeComponent {
     colorDark: this.white,
     colorLight: this.blue600,
     cssClass: "center",
-    elementType: "svg" as QRCodeElementType,
+    elementType: "canvas" as QRCodeElementType,
     errorCorrectionLevel: "M" as QRCodeErrorCorrectionLevel,
     imageSrc: "./assets/qrcode/logo.png",
     imageHeight: 0,
