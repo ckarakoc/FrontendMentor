@@ -3,10 +3,15 @@
 Professionally designed challenges created from frontendmentor.io
 
 ## Usage
+
 ```shell
 ng serve
 ```
 
 ## Routes
 
-[example_1](http://localhost:4200/example)
+[qrcode](http://localhost:4200/qrcode)
+
+## Other Readme Links
+
+[qrcode](src/app/qrcode/README.md)
