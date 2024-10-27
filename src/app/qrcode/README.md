@@ -51,3 +51,4 @@ URL: http://localhost:4200/qrcode
 ## Acknowledgments
 
 - [Frontend Mentor](https://www.frontendmentor.io)
+- [Bennett Feely](https://bennettfeely.com/clippy/)
