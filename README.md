@@ -21,6 +21,10 @@ ng serve
 
 ```shell
 ng build --output-path docs --base-href=https://ckarakoc.github.io/FrontendMentor/
+```
+```shell
 robocopy /move /e .\docs\browser\ .\docs\
+```
+```shell
 copy .\docs\index.html .\docs\404.html
 ```
