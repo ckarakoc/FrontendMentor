@@ -1,0 +1,3 @@
+:host {
+  @apply bg-blue-700 flex justify-center items-center h-screen;
+}
