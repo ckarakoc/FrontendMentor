@@ -1,0 +1,4 @@
+:host {
+  @apply block h-screen w-full bg-blue-200 bg-auto bg-center bg-no-repeat;
+  background-image: url('/assets/404.png');
+}

@@ -87,3 +87,5 @@ fabric.properties
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+src/app/blog-preview-card/frontend-mentor/
