@@ -1,0 +1,12 @@
+<div class="relative flex items-center justify-center menu-items" #menuItems>
+  @let sources = ['assets/qrcode/screenshot-desktop.png', 'assets/qrcode/logo.png', 'assets/blog-preview-card/images/design/desktop-design.jpg',
+    'assets/qrcode/logo.png', 'assets/qrcode/logo.png', 'assets/qrcode/logo.png', 'assets/qrcode/logo.png', 'assets/qrcode/logo.png',
+    'assets/qrcode/logo.png', 'assets/qrcode/logo.png', 'assets/qrcode/logo.png'] ;
+  @for (source of sources; track $index) {
+    <div class="absolute menu-item">
+      <div class="inner-item">
+        <app-circular-menu-item imgSrc="{{ source }}" [(count)]="counter"/>
+      </div>
+    </div>
+  }
+</div>

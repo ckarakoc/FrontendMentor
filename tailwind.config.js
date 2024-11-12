@@ -34,7 +34,7 @@ module.exports = {
       },
       animation: {
         waving: 'wave 2s linear infinite',
-        onloading: 'onload 0.3s linear 1',
+        onloading: 'onload 0.3s ease-in-out forwards',
       }
     }
   },

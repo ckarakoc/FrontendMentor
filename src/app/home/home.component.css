@@ -2,11 +2,11 @@
   --gradient-color1: #2b67ac;
   --gradient-color2: rgba(43, 103, 172, 0.4);
 
-  @apply block h-screen bg-blue-900;
+  @apply flex h-screen bg-blue-900;
 }
 
 .wrapper {
-  @apply flex justify-center items-center h-full;
+  @apply flex justify-center items-center h-full w-full;
   background-image: linear-gradient(to right, var(--gradient-color1) 5px, transparent 0),
   linear-gradient(to bottom, var(--gradient-color1) 5px, transparent 0),
   linear-gradient(to right, var(--gradient-color2) 1px, transparent 0),
