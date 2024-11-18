@@ -13,7 +13,7 @@
     text: 'Blog Preview',
   }];
   @for (source of sources; track $index) {
-    @let counter = $index + 2;
+    @let counter = $index * 2;
     <div class="absolute menu-item">
       <div class="inner-item">
         <app-circular-menu-item [imgSrc]="source.img" [count]="counter" [link]="source.link" [text]="source.text"/>

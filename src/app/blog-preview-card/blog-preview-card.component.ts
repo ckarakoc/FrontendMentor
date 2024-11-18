@@ -16,7 +16,7 @@ import { RouterLink } from '@angular/router';
 export class BlogPreviewCardComponent {
   tags = input<string[]>(['Learning', 'Arrange', 'Act', 'Assert']);
   profileName = signal<string>('Greg Hooper');
-  profileImg = signal<string>('/assets/blog-preview-card/images/image-avatar.webp');
+  profileImg = signal<string>('assets/blog-preview-card/images/image-avatar.webp');
   profileTitle = signal<string>('HTML & CSS foundations');
   profileContent = signal<string>('These languages are the backbone of every website, defining structure, content, and presentation.');
   currentDate: Date = new Date();

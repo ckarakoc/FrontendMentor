@@ -40,6 +40,5 @@ export class CircularMenuComponent implements AfterViewInit {
       }
       translateX += 150;
     }
-    console.log('Done')
   }
 }
