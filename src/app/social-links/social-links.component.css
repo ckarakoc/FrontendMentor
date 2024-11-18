@@ -1,0 +1,35 @@
+:host {
+  --sl-grey-900: #141414;
+  --sl-grey-800: #1F1F1F;
+  --sl-grey-700: #333333;
+  --sl-green: #C4F82A;
+  --sl-white: #FFFFFF;
+
+  --sl-spacing-500: 40px;
+  --sl-spacing-300: 24px;
+  --sl-spacing-200: 16px;
+  --sl-spacing-150: 12px;
+  --sl-spacing-100: 8px;
+  --sl-spacing-50: 4px;
+
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @apply font-inter;
+}
+
+
+.text-preset-1 {
+  @apply text-2xl leading-[150%] tracking-normal font-normal;
+}
+
+.text-preset-2 {
+  @apply text-sm leading-[150%] tracking-normal font-normal;
+}
+
+.text-preset-2-bold {
+  @apply text-sm leading-[150%] tracking-normal font-bold;
+}

@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        figtree: ['Figtree']
+        figtree: ['Figtree'],
+        inter: ['Inter'],
       },
       keyframes: {
         wave: {
