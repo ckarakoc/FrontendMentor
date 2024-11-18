@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { BlogPreviewCardComponent } from './blog-preview-card/blog-preview-card.component';
 import { CircularMenuComponent } from './circular-menu/circular-menu.component';
 import { SocialLinksComponent } from './social-links/social-links.component';
+import { RecipeComponent } from './recipe/recipe.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -14,5 +15,6 @@ export const routes: Routes = [
   { path: 'social-links', component: SocialLinksComponent },
   { path: '404', component: PageNotFoundComponent },
   { path: 'test', component: CircularMenuComponent },
+  { path: 'recipe', component: RecipeComponent },
   { path: '**', redirectTo: '/404', pathMatch: 'full' },
 ];
