@@ -14,7 +14,6 @@ import { RouterLink } from '@angular/router';
 })
 export class CircularMenuComponent implements AfterViewInit {
   menuItems = viewChild.required<ElementRef<HTMLDivElement>>('menuItems');
-  // counter: number = 0;
 
   constructor(private renderer: Renderer2) {
   }

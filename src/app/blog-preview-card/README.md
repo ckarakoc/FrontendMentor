@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -17,10 +17,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 #### Desktop:
-![Desktop](/src/assets/qrcode/screenshot-desktop.png)
+![Desktop](/src/assets/blog-preview-card/screenshot-desktop.png)
 
 #### Mobile:
-![Mobile](/src/assets/qrcode/screenshot-mobile.png)
+![Mobile](/src/assets/blog-preview-card/screenshot-mobile.png)
 
 ### Links
 
@@ -28,16 +28,15 @@ First do
 ```shell
 ng serve 
 ```
-URL: http://localhost:4200/qrcode
+URL: http://localhost:4200/blog-preview
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- TailwindCSS
 - Mobile-first workflow
 - [Angular](https://angular.dev/)
-- [angularx-qrcode](https://www.npmjs.com/package/angularx-qrcode)
 
 ## Author
 
@@ -48,4 +47,3 @@ URL: http://localhost:4200/qrcode
 ## Acknowledgments
 
 - [Frontend Mentor](https://www.frontendmentor.io)
-- [Bennett Feely](https://bennettfeely.com/clippy/)

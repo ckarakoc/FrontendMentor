@@ -1,0 +1,35 @@
+:host {
+  --bp-yellow: #F4D04E;
+  --bp-gray-950: #111111;
+  --bp-gray-500: #6B6B6B;
+  --bp-white: #FFFFFF;
+  --bp-spacing-200: 24px;
+  --bp-spacing-150: 12px;
+  --bp-spacing-100: 8px;
+  --bp-spacing-50: 4px;
+
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--bp-yellow);
+  @apply font-figtree;
+}
+
+.text-preset-1 {
+  @apply text-2xl leading-[150%] tracking-normal font-extrabold;
+}
+
+.text-preset-2 {
+  @apply text-base leading-[150%] tracking-normal font-normal;
+}
+
+.text-preset-3 {
+  @apply text-sm leading-[150%] tracking-normal font-normal;
+}
+
+.text-preset-4 {
+  @apply text-sm leading-[150%] tracking-normal font-extrabold;
+}

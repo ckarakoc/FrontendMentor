@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        figtree: ['Figtree']
+      },
       keyframes: {
         wave: {
           '0%': {transform: 'rotate(0.0deg)'},

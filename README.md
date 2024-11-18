@@ -7,14 +7,17 @@ Professionally designed challenges created from frontendmentor.io
 ```shell
 ng serve
 ```
+Or go to [link](https://ckarakoc.github.io/FrontendMentor/) to see for yourself.
 
 ## Routes
 
-[qrcode](http://localhost:4200/qrcode)
+- [qrcode](http://localhost:4200/qrcode)
+- [blog-preview-card](http://localhost:4200/blog-preview)
 
 ## Other Readme Links
 
-[qrcode](src/app/qrcode/README.md)
+- [qrcode](src/app/qrcode/README.md)
+- [blog-preview-card](src/app/blog-preview-card/README.md)
 
 
 ## Deploy to `gh-pages` with these commands
