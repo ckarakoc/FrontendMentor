@@ -6,6 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'sl-grey-900': '#141414',
+        'sl-grey-800': '#1F1F1F',
+        'sl-grey-700': '#333333',
+        'sl-green': '#C4F82A',
+        'sl-white': '#FFFFFF',
+      },
       fontFamily: {
         figtree: ['Figtree'],
         inter: ['Inter'],

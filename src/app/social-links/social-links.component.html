@@ -1,1 +1,16 @@
-<p>social-links works!</p>
+@let btnText = ['Github', 'Frontend Mentor', 'LinkedIn', 'Twitter', 'Instagram'];
+<div class="card p-8 bg-sl-grey-800 rounded-xl">
+  <div class="header flex flex-col gap-5 items-center justify-center text-sl-white">
+    <img class="w-20 rounded-full" src="assets/social-links/images/avatar-jessica.jpeg" alt="profile image">
+    <div class="">
+      <div class="name text-preset-1">Jessica Randall</div>
+      <div class="location text-preset-2-bold text-sl-green">London, United Kingdom</div>
+    </div>
+    <div class="quote text-xs text-sl-white">"Front-end developer and avid reader."</div>
+  </div>
+  <div class="buttons flex justify-center items-center flex-col w-full text-sl-white gap-3 mt-6">
+    @for (text of btnText; track $index) {
+      <button class="text-preset-2-bold bg-sl-grey-700 w-full p-2 rounded-lg hover:bg-sl-green hover:cursor-pointer hover:text-black h-full">{{ text }}</button>
+    }
+  </div>
+</div>

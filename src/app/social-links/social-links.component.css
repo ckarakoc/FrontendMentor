@@ -1,10 +1,4 @@
 :host {
-  --sl-grey-900: #141414;
-  --sl-grey-800: #1F1F1F;
-  --sl-grey-700: #333333;
-  --sl-green: #C4F82A;
-  --sl-white: #FFFFFF;
-
   --sl-spacing-500: 40px;
   --sl-spacing-300: 24px;
   --sl-spacing-200: 16px;
@@ -18,7 +12,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  @apply font-inter;
+  @apply font-inter bg-sl-grey-900;
 }
 
 
