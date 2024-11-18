@@ -6,7 +6,7 @@ import { BlogPreviewCardComponent } from './blog-preview-card/blog-preview-card.
 import { CircularMenuComponent } from './circular-menu/circular-menu.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'test', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'qrcode', component: QRCodeComponent },
   { path: 'blog-preview', component: BlogPreviewCardComponent },
