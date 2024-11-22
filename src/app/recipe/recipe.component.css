@@ -8,3 +8,27 @@
   --rc-spacing-150: 12px;
   --rc-spacing-100: 8px;
 }
+
+h1 {
+  @apply font-young text-[40px] leading-[100%] tracking-normal;
+}
+
+h2 {
+  @apply font-young text-[28px] leading-[100%] tracking-normal text-rc-brown-800;
+}
+
+h3 {
+  @apply font-outfit text-[20px] leading-[100%] tracking-normal text-rc-brown-800 font-semibold;
+}
+
+ol, ul {
+  @apply pl-[var(--rc-spacing-100)];
+}
+
+li {
+  @apply text-rc-rose-800 pl-[var(--rc-spacing-200)];
+}
+
+.striped div:nth-child(even) {
+  @apply font-bold text-rc-brown-800;
+}

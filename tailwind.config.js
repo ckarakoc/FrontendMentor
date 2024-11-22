@@ -24,6 +24,8 @@ module.exports = {
       fontFamily: {
         figtree: ['Figtree'],
         inter: ['Inter'],
+        outfit: ['Outfit'],
+        young: ['Young Serif']
       },
       keyframes: {
         wave: {
