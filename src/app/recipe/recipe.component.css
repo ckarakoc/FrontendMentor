@@ -1,0 +1,10 @@
+:host {
+  --rc-spacing-1600: 128px;
+  --rc-spacing-600: 48px;
+  --rc-spacing-500: 40px;
+  --rc-spacing-400: 32px;
+  --rc-spacing-300: 24px;
+  --rc-spacing-200: 16px;
+  --rc-spacing-150: 12px;
+  --rc-spacing-100: 8px;
+}
