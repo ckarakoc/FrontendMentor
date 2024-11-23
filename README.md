@@ -14,12 +14,14 @@ Or go to [link](https://ckarakoc.github.io/FrontendMentor/) to see for yourself.
 - [qrcode](http://localhost:4200/qrcode)
 - [blog-preview-card](http://localhost:4200/blog-preview)
 - [social-links](http://localhost:4200/social-links)
+- [recipe](http://localhost:4200/recipe)
 
 ## Other Readme Links
 
 - [qrcode](src/app/qrcode/README.md)
 - [blog-preview-card](src/app/blog-preview-card/README.md)
 - [social-links](src/app/social-links/README.md)
+- [recipe](src/app/recipe/README.md)
 
 
 ## Deploy to `gh-pages` with these commands

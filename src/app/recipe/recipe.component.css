@@ -29,6 +29,11 @@ li {
   @apply text-rc-rose-800 pl-[var(--rc-spacing-200)];
 }
 
+li::marker {
+  @apply text-rc-rose-800 pl-[var(--rc-spacing-200)];
+}
+
+
 .striped div:nth-child(even) {
   @apply font-bold text-rc-brown-800;
 }
