@@ -6,6 +6,7 @@ import { BlogPreviewCardComponent } from './blog-preview-card/blog-preview-card.
 import { CircularMenuComponent } from './circular-menu/circular-menu.component';
 import { SocialLinksComponent } from './social-links/social-links.component';
 import { RecipeComponent } from './recipe/recipe.component';
+import { ProductPreviewCardComponent } from './product-preview-card/product-preview-card.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -16,5 +17,6 @@ export const routes: Routes = [
   { path: '404', component: PageNotFoundComponent },
   { path: 'test', component: CircularMenuComponent },
   { path: 'recipe', component: RecipeComponent },
+  { path: 'product-preview', component: ProductPreviewCardComponent },
   { path: '**', redirectTo: '/404', pathMatch: 'full' },
 ];

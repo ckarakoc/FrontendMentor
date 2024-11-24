@@ -15,6 +15,7 @@ Or go to [link](https://ckarakoc.github.io/FrontendMentor/) to see for yourself.
 - [blog-preview-card](http://localhost:4200/blog-preview)
 - [social-links](http://localhost:4200/social-links)
 - [recipe](http://localhost:4200/recipe)
+- [product-preview-card](http://localhost:4200/product-preview)
 
 ## Other Readme Links
 
@@ -22,6 +23,8 @@ Or go to [link](https://ckarakoc.github.io/FrontendMentor/) to see for yourself.
 - [blog-preview-card](src/app/blog-preview-card/README.md)
 - [social-links](src/app/social-links/README.md)
 - [recipe](src/app/recipe/README.md)
+- [product-preview-card](src/app/product-preview-card/README.md)
+
 
 
 ## Deploy to `gh-pages` with these commands
