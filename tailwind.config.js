@@ -20,12 +20,19 @@ module.exports = {
         'rc-brown-800': '#854632',
         'rc-rose-800': '#7A284E',
         'rc-rose-50': '#FFF7FB',
+        'ppc-dark-cyan': '#3C8067',
+        'ppc-cream': '#F2EBE3',
+        'ppc-dark-blue': '#1C232B',
+        'ppc-grayish-blue': '#6C7289',
+        'ppc-white': '#FFFFFF',
       },
       fontFamily: {
         figtree: ['Figtree'],
         inter: ['Inter'],
         outfit: ['Outfit'],
-        young: ['Young Serif']
+        young: ['Young Serif'],
+        montserrat: ['Montserrat'],
+        fraunces: ['Fraunces'],
       },
       keyframes: {
         wave: {
