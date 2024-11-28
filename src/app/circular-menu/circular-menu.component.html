@@ -23,9 +23,13 @@
     link: '/product-preview',
     img: 'assets/product-preview-card/images/design/desktop-design.jpg',
     text: 'Product Preview',
+  }, {
+    link: '/four-card',
+    img: 'assets/four-card-feature/images/design/desktop-design.jpg',
+    text: 'Four Card Feature',
   }];
   @for (source of sources; track $index) {
-    @let counter = $index * 2;
+    @let counter = $index;
     <div class="absolute menu-item">
       <div class="inner-item">
         <app-circular-menu-item [imgSrc]="source.img" [count]="counter" [link]="source.link" [text]="source.text"/>
