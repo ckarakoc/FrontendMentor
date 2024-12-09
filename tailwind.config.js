@@ -25,6 +25,13 @@ module.exports = {
         'ppc-dark-blue': '#1C232B',
         'ppc-grayish-blue': '#6C7289',
         'ppc-white': '#FFFFFF',
+        'fc-red': '#EA5353',
+        'fc-cyan': '#45D3D3',
+        'fc-orange': '#FCAF4A',
+        'fc-blue': '#549EF2',
+        'fc-dark-blue': '#4C4E61',
+        'fc-grayish-blue': '#A3A5AE',
+        'fc-light-gray': '#FAFAFA',
       },
       fontFamily: {
         figtree: ['Figtree'],
@@ -33,6 +40,7 @@ module.exports = {
         young: ['Young Serif'],
         montserrat: ['Montserrat'],
         fraunces: ['Fraunces'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       keyframes: {
         wave: {
