@@ -1,8 +1,15 @@
 <div class="relative m-1 h-32 w-32 rounded-full bg-white p-8 shadow-2xl group">
-  <a href="{{ link() }}" class="rounded-full after:absolute after:top-0 after:left-0 after:block after:h-32 after:w-32 after:rounded-full after:border-2 after:border-dashed after:border-white
-  after:transition-all after:ease-in-out after:duration-300 hover:after:scale-110">
-    <img ngSrc="{{ imgSrc() }}" class="scale-90 rounded-full object-cover group-hover:opacity-70" alt="" fill priority>
-  </a>
+  @if (isUrlRegex.test(link())) {
+    <a href="{{ link() }}" class="rounded-full after:absolute after:top-0 after:left-0 after:block after:h-32 after:w-32 after:rounded-full after:border-2 after:border-dashed after:border-white
+      after:transition-all after:ease-in-out after:duration-300 hover:after:scale-110">
+      <img ngSrc="{{ imgSrc() }}" class="scale-90 rounded-full object-cover group-hover:opacity-70" alt="" fill priority>
+    </a>
+  } @else {
+    <a [routerLink]="link()" class="rounded-full after:absolute after:top-0 after:left-0 after:block after:h-32 after:w-32 after:rounded-full after:border-2 after:border-dashed after:border-white
+      after:transition-all after:ease-in-out after:duration-300 hover:after:scale-110">
+      <img ngSrc="{{ imgSrc() }}" class="scale-90 rounded-full object-cover group-hover:opacity-70" alt="" fill priority>
+    </a>
+  }
   <div class="absolute inset-0 top-[8.25rem] flex justify-center">
     <span class="hidden w-40 break-words text-center font-serif text-xl font-bold text-white animate-onloading
      group-hover:block group-hover:transition-all group-hover:duration-300 group-hover:ease-in-out">{{ text() }}</span>

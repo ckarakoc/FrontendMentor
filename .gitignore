@@ -88,4 +88,5 @@ fabric.properties
 .DS_Store
 .prettierignore
 
-src/app/blog-preview-card/frontend-mentor/
+figma/
+fonts/

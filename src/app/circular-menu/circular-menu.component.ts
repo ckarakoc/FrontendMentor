@@ -1,18 +1,19 @@
 import { AfterViewInit, Component, ElementRef, OnInit, Renderer2, viewChild } from '@angular/core';
 import { CircularMenuItemComponent } from '../circular-menu-item/circular-menu-item.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-circular-menu',
   standalone: true,
   imports: [
-    CircularMenuItemComponent
+    CircularMenuItemComponent,
+    RouterLink
   ],
   templateUrl: './circular-menu.component.html',
   styleUrl: './circular-menu.component.css'
 })
 export class CircularMenuComponent implements AfterViewInit {
   menuItems = viewChild.required<ElementRef<HTMLDivElement>>('menuItems');
-  counter: number = 0;
 
   constructor(private renderer: Renderer2) {
   }

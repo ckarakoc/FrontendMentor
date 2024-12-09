@@ -1,0 +1,40 @@
+.box1 {
+  grid-area: box1;
+}
+
+.box2 {
+  grid-area: box2;
+}
+
+.box3 {
+  grid-area: box3;
+}
+
+.box4 {
+  grid-area: box4;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-areas:
+               ".... .... box1 box1 .... ...."
+               "box2 box2 box1 box1 box4 box4"
+               "box2 box2 box3 box3 box4 box4"
+               ".... .... box3 box3 .... ....";
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.header {
+  background-color: #999;
+}
