@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { CircularMenuComponent } from '../circular-menu/circular-menu.component';
+import { HomeCardComponent } from '../home-card/home-card.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
-    CircularMenuComponent
+    HomeCardComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
