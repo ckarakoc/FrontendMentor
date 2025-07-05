@@ -2,12 +2,8 @@
   --gradient-color1: #2b67ac;
   --gradient-color2: rgba(43, 103, 172, 0.4);
 
-  @apply flex min-h-screen bg-blue-900;
-}
+  @apply flex flex-col justify-center min-h-screen bg-blue-900;
 
-.wrapper {
-  /* TODO: fix mobile responsive design */
-  @apply flex gap-5 flex-wrap justify-center items-center h-full w-full;
   background-image: linear-gradient(to right, var(--gradient-color1) 5px, transparent 0),
   linear-gradient(to bottom, var(--gradient-color1) 5px, transparent 0),
   linear-gradient(to right, var(--gradient-color2) 1px, transparent 0),
@@ -17,4 +13,9 @@
   /*linear-gradient(to right, var(--gradient-color2) 1px, transparent 0),*/
   /*linear-gradient(to bottom, var(--gradient-color2) 1px, transparent 0);*/
   background-size: 112px 112px, /* Size for Gradient 1 */ 112px 112px, 56px 56px, 56px 56px, 28px 28px, /* ... */ 28px 28px, 14px 14px, 14px 14px; /* Size for Gradient n */
+}
+
+.wrapper {
+  /* TODO: fix mobile responsive design */
+  @apply flex gap-5 flex-wrap justify-center items-center;
 }
