@@ -16,6 +16,7 @@ export class HomeCardComponent {
   cardTitle = input<string>('Card Title');
   imgUrl = input.required<string>();
   cardContent = input<string>('Card content goes here.');
+  link = input.required<string>();
 
   toggleImgModal() {
 
