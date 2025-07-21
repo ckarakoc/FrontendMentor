@@ -1,3 +1,7 @@
+> ⚠️ **DEPRECATED**: This repository is no longer maintained.  
+> Please use the new version here: [new-repo-link](https://github.com/ckarakoc/frontend-mentor)
+
+
 # ![img.png](src/assets/readme/img.png)
 
 Professionally designed challenges created from frontendmentor.io
